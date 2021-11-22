@@ -1,0 +1,232 @@
+/* header */
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+* {
+  font-family: "Titillium Web", sans-serif;
+}
+body {
+  height: 200px;
+}
+.navbar .navbar-brand {
+  font-size: 40px;
+  color:cyan;
+}
+.navbar .nav-item {
+  padding: 10px 20px;
+}
+.navbar .nav-link {
+  color: cyan;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.fa-bars {
+  font-size: 50px;
+}
+.dropdown-item{
+  color:cyan;
+}
+/* ----------------header-----end------------ */
+
+/*-----body----*/
+
+/* .bg1{
+
+} */
+#home1{
+  background-color:#B5EAEA;
+  padding: 5% 5%;
+}
+ /*-------testimonials-------*/
+
+ .testimonials{
+   margin-top: 7%;
+   padding: 3%;
+   background-color: #0A1931;
+ }
+ .testimonials p, h5 {
+   color: white;
+ }
+ .testimonials h4, h1{
+   padding-bottom: 20px;
+ }
+.bd-example{
+  margin: 2px;
+
+}
+/*-----Testimonials End-----*/
+
+/*------News------*/
+
+#news h4{
+  font-size: 2rem;
+  font-weight: 400;
+}
+#news p{
+  font-family: 'Roboto';
+  line-height: 1.5;
+}
+#news h3{
+  font-family: sans-serif;
+  font-weight: 300;
+  margin:0;
+  padding: 0;
+}
+#news h2{
+  font-family: sans-serif;
+  font-weight: 600;
+  line-height: 2;
+}
+
+.demo-wrap {
+  position: relative;
+  padding:5% 10% 10% 10%;
+  margin: 5%;
+
+}
+
+.demo-wrap:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background-image: url('https://www.wallpaperuse.com/wallp/59-593365_m.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.demo-content {
+  position: relative;
+}
+
+
+/*-----News & blogs end-----*/
+
+/*-----Team-----*/
+.team h5 p{
+  color: black;
+}
+.team {
+  background: #fff;
+  padding: 60px 0;
+}
+
+.team .member {
+  margin-bottom: 20px;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.team .member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.team .member .social {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.team .member .social a {
+  transition: color 0.3s;
+  color: #493c3e;
+  margin: 0 10px;
+  padding-top: 8px;
+  display: inline-block;
+}
+
+.team .member .social a:hover {
+  color: #e43c5c;
+}
+
+.team .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
+.team .member .member-info {
+  padding: 25px 15px;
+}
+
+.team .member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #493c3e;
+}
+
+.team .member .member-info span {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaaaaa;
+}
+
+.team .member .member-info p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  color: #777777;
+}
+
+.team .member:hover .social {
+  opacity: 1;
+}
+#team{
+  background-color: #F4EEE8;
+}
+
+
+/*-----Team-End------*/
+/*----body end------*/
+
+/* footer*/
+.social-links{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5%;
+	justify-content: space-between;
+}
+.social-links section{
+	flex-basis: 30%;
+}
+.social-icons-footer i{
+	font-size: 37px;
+	padding: 5px;
+}
+.footer-buttons{
+	display: block;
+	border: 1px solid #2196f3;
+	color: #2196f3;
+	font-size: 18px;
+	font-weight: bolder;
+	background-color: white;
+	margin: 20px 0px 20px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+.footer-buttons:hover{
+	color: #fff;
+	border: 1px solid #fff;
+	background-color: #2196f3;
+}
+.copyright{
+	width: 100%;
+	color: #fff;
+	padding: 5px;
+	text-align: center;
+}
+/*-------------------footer-----------end-----------*/
